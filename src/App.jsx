@@ -8,9 +8,12 @@ import Nav from './components/Nav'
 import Portfolio from './components/Portfolio'
 import Testimonials from './components/Testimonials'
 import Services from './components/Services'
+
+
 export default function App() {
 
-
+document.documentElement.style
+    .setProperty('--my-variable-name', 'pink')
 
 
   return (

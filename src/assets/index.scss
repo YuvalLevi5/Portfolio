@@ -14,6 +14,8 @@
 @import './cmps/contact';
 @import './cmps/footer';
 
+// $try: var(--my-variable-name);
 ::placeholder { 
     color: $clr-white;
+    // color: $try;
   }

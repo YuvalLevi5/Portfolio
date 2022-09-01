@@ -19,7 +19,7 @@ const data = [
     image: IMG2,
     title:'Mister Tasker',
     github: 'https://github.com/YuvalLevi5/MisterTasker-NodeJS',
-    demo: 'https://calm-beyond-40619.herokuapp.com/'
+    demo: 'https://evening-gorge-66020.herokuapp.com/'
   },
   {
     id: 3,
@@ -56,69 +56,6 @@ export default function Portfolio() {
     <section className='hash' id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-
-      {/* <div className="container portfolio-container">
-        <article className='portfolio-item'>
-          <div className="portfolio-item-img">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>Trello clone</h3>
-          <div className="portfolio-item-cta">
-            <a className='btn' href="https://www.youtube.com/" target="_blank">Github repository</a>
-            <a className='btn btn-primary' href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio-item'>
-          <div className="portfolio-item-img">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>Trello clone</h3>
-          <div className="portfolio-item-cta">
-            <a className='btn' href="#">Github repository</a>
-            <a className='btn btn-primary' href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio-item'>
-          <div className="portfolio-item-img">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>Trello clone</h3>
-          <div className="portfolio-item-cta">
-            <a className='btn' href="#" target="_blank">Github repository</a>
-            <a className='btn btn-primary' href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio-item'>
-          <div className="portfolio-item-img">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>Trello clone</h3>
-          <div className="portfolio-item-cta">
-            <a className='btn' href="#">Github repository</a>
-            <a className='btn btn-primary' href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio-item'>
-          <div className="portfolio-item-img">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>Trello clone</h3>
-          <div className="portfolio-item-cta">
-            <a className='btn' href="#">Github repository</a>
-            <a className='btn btn-primary' href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio-item'>
-          <div className="portfolio-item-img">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>Trello clone</h3>
-          <div className="portfolio-item-cta">
-            <a className='btn' href="#">Github repository</a>
-            <a className='btn btn-primary' href="#" target="_blank">Live Demo</a>
-          </div>
-        </article>
-      </div> */}
       <div className="container portfolio-container">
         {
           data.map(({ id, image, title, github, demo }) => {
