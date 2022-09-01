@@ -1,0 +1,19 @@
+//  SETUP
+@import 'setup/variables';
+
+//  BASICSC
+@import './basics/fonts';
+@import './basics/base';
+
+//  CMPS
+@import './cmps/header';
+@import './cmps/nav';
+@import './cmps/about';
+@import './cmps/experience';
+@import './cmps/portfolio';
+@import './cmps/contact';
+@import './cmps/footer';
+
+::placeholder { 
+    color: $clr-white;
+  }
