@@ -40,7 +40,7 @@ export default function Contact() {
           <article className='contact-option'>
             <BsWhatsapp />
             <h4>WhatsApp</h4>
-            <a href="https://api.whatsapp.com/send?phone=0544443736" traget="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=9720549449064" traget="_blank">Send a message</a>
           </article>
         </div>
         <form ref={form} className='contact-form' onSubmit={sendEmail}>
