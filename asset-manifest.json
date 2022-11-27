@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.acc28c0e.css",
-    "main.js": "/Portfolio/static/js/main.3b499a18.js",
+    "main.js": "/Portfolio/static/js/main.d0a3ec02.js",
     "static/media/mine.png": "/Portfolio/static/media/mine.cf9f3b4e11c02db19246.png",
     "static/media/meme.png": "/Portfolio/static/media/meme.283fc35c66c83b91e4f9.png",
     "static/media/Trello.png": "/Portfolio/static/media/Trello.a0256bf0d1b8639f9e24.png",
@@ -11,16 +11,16 @@
     "static/media/Poppins-Medium.ttf": "/Portfolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-SemiBold.ttf": "/Portfolio/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "static/media/mee.jpg": "/Portfolio/static/media/mee.fb4ac361184ae065d14a.jpg",
-    "static/media/bitcoin.png": "/Portfolio/static/media/bitcoin.3761d9409b8109a85fff.png",
+    "static/media/bitcoin.png": "/Portfolio/static/media/bitcoin.f00b4c2293841909cba7.png",
     "static/media/toy.png": "/Portfolio/static/media/toy.693db2a6814163704aac.png",
     "static/media/me.png": "/Portfolio/static/media/me.183a16e8f86befc8219c.png",
     "static/media/tasker.png": "/Portfolio/static/media/tasker.f5678aaea0e880819765.png",
     "index.html": "/Portfolio/index.html",
     "main.acc28c0e.css.map": "/Portfolio/static/css/main.acc28c0e.css.map",
-    "main.3b499a18.js.map": "/Portfolio/static/js/main.3b499a18.js.map"
+    "main.d0a3ec02.js.map": "/Portfolio/static/js/main.d0a3ec02.js.map"
   },
   "entrypoints": [
     "static/css/main.acc28c0e.css",
-    "static/js/main.3b499a18.js"
+    "static/js/main.d0a3ec02.js"
   ]
 }
