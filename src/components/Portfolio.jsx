@@ -12,21 +12,28 @@ const data = [
     image: IMG1,
     title:'Trello Clone',
     github: 'https://github.com/YuvalLevi5/MyTrello',
-    demo: 'https://calm-lowlands-02119.herokuapp.com/'
+    demo: 'https://trello-clone-4zmc.onrender.com/'
   },
   {
     id: 2,
     image: IMG2,
     title:'Mister Tasker',
     github: 'https://github.com/YuvalLevi5/MisterTasker-NodeJS',
-    demo: 'https://evening-gorge-66020.herokuapp.com/'
+    demo: 'https://mister-tasker.onrender.com/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title:'Toy App',
+    github: 'https://github.com/YuvalLevi5/ToyApp',
+    demo: 'https://toy-app-d00y.onrender.com/#/'
   },
   {
     id: 3,
     image: IMG3,
-    title:'Mister Bitcoin',
-    github: 'https://github.com/YuvalLevi5/mister-bitcoin',
-    demo: 'https://yuvallevi5.github.io/mister-bitcoin/#/'
+    title:'Cryptocurrency',
+    github: 'https://github.com/YuvalLevi5/crypto-currency',
+    demo: 'https://cryptoverse-reactjs-yl.netlify.app/#/'
   },
   {
     id: 4,
@@ -34,13 +41,6 @@ const data = [
     title:'Meme Generator',
     github: 'https://github.com/YuvalLevi5/MemeGen',
     demo: 'https://yuvallevi5.github.io/MemeGen/'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title:'Toy App',
-    github: 'https://github.com/YuvalLevi5/ToyApp',
-    demo: 'https://blooming-river-78781.herokuapp.com/#/'
   },
   {
     id: 6,
@@ -67,8 +67,8 @@ export default function Portfolio() {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio-item-cta">
-                  <a className='btn' href={github} target="_blank">Github repository</a>
-                  <a className='btn btn-primary' href={demo} target="_blank">Live Demo</a>
+                  <a className='btn' href={github} target="_blank" rel="noopener noreferrer" >Github repository</a>
+                  <a className='btn btn-primary' href={demo} target="_blank" rel="noopener noreferrer" >Live Demo</a>
                 </div>
               </article>
             )
